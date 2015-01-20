@@ -1,0 +1,16 @@
+# Copyright (C) 2015 Ahmed Charles - acharles@outlook.com
+# Distributed under the MIT License.
+#    (See accompanying file LICENSE.txt or copy at
+#          http://opensource.org/licenses/MIT)
+
+[package]
+
+name = "lua-rs"
+version = "0.0.1"
+authors = ["Ahmed Charles <acharles@outlook.com>"]
+description = "Lua port written in Rust."
+repository = "https://github.com/ahmedcharles/lua-rs"
+readme = "README.md"
+keywords = ["lua"]
+license = "MIT"
+exclude = [".gitignore", ".travis.yml"]
