@@ -7,18 +7,24 @@ Lua port written in Rust.
 
 ## Usage
 
-Add this to your `Cargo.toml`:
+Add this to your `Cargo.toml` (crates.io):
+
+```toml
+[dependencies]
+lua-rs = "*"
+```
+
+or (git):
 
 ```toml
 [dependencies.lua-rs]
-
 git = "https://github.com/ahmedcharles/lua-rs"
 ```
 
 and this to your crate root:
 
 ```rust
-extern crate "lua-rs" as lua_rs;
+extern crate lua_rs;
 ```
 
 Get the latest version from [GitHub](https://github.com/ahmedcharles/lua-rs).
